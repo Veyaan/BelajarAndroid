@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".DetailListAudio">
+
+    <ImageView
+        android:id="@+id/detail_img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tractor" />
+
+    <TextView
+        android:id="@+id/detail_lagu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Judul Lagu"
+        android:textColor="#9999"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/detail_pembuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nama Artis"
+        android:textColor="#B3B3B3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/detail_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Album"
+        android:textColor="#990000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/detail_jumlahpendengar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textColor="#747474"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonplay"
+        android:layout_marginTop="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Song!" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_marginTop="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout!" />
+
+
+</LinearLayout>
